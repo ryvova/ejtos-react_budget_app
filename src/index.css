@@ -21,13 +21,32 @@ select.currency {
 select.currency option {
     color: black;
     border: none;
-
+    width: '100px'
 }
 
 select.currency option:checked, select.currency option:hover {
     box-shadow: 0 0 10px 100px #4ddc3b inset;
 }
 
+label.currencySymbol {
+    vertical-align: middle;
+    text-align: right;
+    margin-right: 5px;
+    margin-left: 1em !important;
+}
 
+span.currencySymbol {
+    margin-left: 1em;
+}
 
+button {
+    width: 50px;
+    border: none;
+    background-color: white;
+}
 
+button svg, button img {
+    width: 30px;
+    margin-left: 5em;
+    border: none;
+}
