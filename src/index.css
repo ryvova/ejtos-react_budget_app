@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+select.currency {
+    border: none;
+    background-color: lightgreen;
+    color: white;
+}
+
+select.currency option {
+    color: black;
+    border: none;
+
+}
+
+select.currency option:checked, select.currency option:hover {
+    box-shadow: 0 0 10px 100px #4ddc3b inset;
+}
+
+
+
+
